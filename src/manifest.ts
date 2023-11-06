@@ -23,7 +23,14 @@ const manifest: Manifest.WebExtensionManifest = {
   permissions: ["activeTab", "storage"],
   content_scripts: [
     {
-      matches: ["http://*/*", "https://*/*", "<all_urls>"],
+      // Matches any domain with the Plex port 32400, for both HTTP and HTTPS
+      matches: ["http://*:*32400/*", "https://*:*32400/*"],
+      js: ["src/pages/content/index.js"],
+      css: ["contentStyle.css"],
+    },
+    {
+      // Matches Plex web app
+      matches: ["https://app.plex.tv/*"],
       js: ["src/pages/content/index.js"],
       css: ["contentStyle.css"],
     },

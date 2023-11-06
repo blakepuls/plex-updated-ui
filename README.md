@@ -5,9 +5,10 @@ This Chrome extension allows users to change the default orange accent color in 
 ## Installation
 
 1. Download the extension's source code and unzip it.
-2. Open Chrome and go to `chrome://extensions/`.
-3. Enable Developer mode.
-4. Click 'Load unpacked' and select the extension directory.
+2. Run `yarn install && yarn build`
+3. Open Chrome and go to `chrome://extensions/`.
+4. Enable Developer mode.
+5. Click `Load unpacked` and select the dist folder.
 
 ## Usage
 
