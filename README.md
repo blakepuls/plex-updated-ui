@@ -19,7 +19,7 @@ To build the project yourself:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/plex-updated-ui.git
+git clone https://github.com/blakepuls/plex-updated-ui.git
 
 # Navigate to the repo directory
 cd plex-updated-ui
