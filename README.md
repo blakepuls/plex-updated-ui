@@ -6,7 +6,7 @@ This Chrome extension allows you to change the default orange accent color in Pl
 
 To use the latest version of Plex Updated UI:
 
-1. Go to the [Releases](https://github.com/blakepuls/plex-updated-ui/releases) page of this repo.
+1. Go to the [Releases](https://github.com/blakepuls/plex-updated-ui/releases) page for this repo.
 2. Download the latest `plex-updated-ui.zip` from the assets.
 3. Unzip the downloaded file into it's own folder
 4. In Chrome, navigate to `chrome://extensions/`.
