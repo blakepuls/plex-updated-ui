@@ -1,0 +1,211 @@
+:root {
+  --accent-hex: #8423d9;
+  --accent-hex-secondary: #9527f5;
+  /* The same color in RGB */
+  /* This is used for transcode buffer display */
+  --accent-rgb: 132, 35, 217;
+  --Sidebar: #0b0b0b; /* var(--Sidebar) */
+  --Topbar: #0b0b0b; /* var(--Topbar) */
+  --SearchBar: #1e1e1e; /* var(--SearchBar) */
+  --background: #0b0b0b; /* var(--background) */
+  --hover: #1d1d1d; /* var(--hover) */
+  --text1: #daa520; /* var(--text1) */
+}
+
+.conversion-queue-empty-region a,
+.remote-access-upload-form .remote-access-upload-speed-header,
+.nav-pills > li.active > a,
+.status-conversion-btn,
+.artwork-file-container a,
+.artwork-file-container a:hover,
+.upload-url-btn,
+.upload-url-btn:hover,
+.wizard-block .selected,
+.wizard-block-selected,
+.edit-section-modal .wizard-blocks-group > .wizard-block.selected,
+.edit-section-modal .wizard-blocks-group > .wizard-block.selected:hover,
+.help-block a,
+span[class*="NavBarActivityMenuStatusItem-statusButtonIndicator-"],
+a[class*="PageHeaderTabButton-isSelected-"],
+span[class*="NavBarActivityButton-label-"],
+div[class*="ServerSettingsServerMenuItem-friendlyName"],
+svg[id*="plex-icon-selected"],
+.btn-gray.selected,
+div[class*="SourceSidebarServerHeader-title-"],
+div[class*="SidebarListLink-selectedIcon-"],
+a[class*="Link-isSelected-"],
+button[class*="Link-isSelected-"],
+a[class*="Link-primary-"],
+button[class*="Link-primary-"],
+.card-announcement a,
+.upload-back-btn,
+.cancel-url-btn,
+.submit-url-btn,
+button[class*="IconButton-isActive-"],
+button[class*="IconButton-"]:hover,
+div[class*="MultiSelectPageHeader-selectedTitle-"],
+div[class*="PageHeaderMultiselectActions-count"] {
+  color: var(--accent-hex);
+}
+
+a[class*="check-for-updates-btn"],
+a[class*=" active"],
+button[class*="Button-primary"],
+.badge,
+div[class*="SessionTile-playProgressPercent-"],
+div[class*="MetadataPosterCard-progressBar-"],
+div[class*="PosterCardOverlayProgress-progressBar-"],
+.keyboard-shortcuts-keys-key,
+div[class*="VolumeSlider-fill-"] {
+  background-color: var(--accent-hex) !important;
+}
+p {
+  margin: 0 0 0 0 !important;
+}
+div[class*="PageHeaderMultiselectActions-container-"] {
+  border: 2px solid var(--accent-hex);
+}
+button[class*="PosterCardLink-hoveredLink"] {
+  box-shadow: 0 0 0 1px var(--accent-hex), 0 0 4px rgba(0, 0, 0, 0.3);
+}
+div[class*="MetadataPosterCard-legacyUnwatchedEpisodesBadge-"],
+div[class*="MetadataPosterCardOverlay-unplayedBadge-"],
+.btn {
+  background-color: var(--accent-hex) !important;
+  color: #fff;
+}
+div[class*="MultiSelectPageHeader-multiSelectPageHeader-"] {
+  box-shadow: 0 2px 0 0 var(--accent-hex);
+}
+div[class*="MetadataPosterCard-legacyUnwatchedTag-"],
+div[class*="MetadataPosterCardOverlay-unplayedTag"] {
+  position: absolute;
+  top: -14px;
+  right: -14px;
+  width: 28px;
+  height: 28px;
+  background-color: var(--accent-hex);
+  transform: rotate(45deg);
+}
+div[class*="SourceSidebarLink-isSelected-"] {
+  background-color: hsla(0, 0%, 100%, 0.07);
+  box-shadow: inset 4px 0 0 0 var(--accent-hex) !important;
+}
+div[class*="MetadataPosterCardFace-isSelected-"],
+button[class*="MetadataPosterCard-selectedLink-"],
+button[class*="MetadataPosterCard-hoveredSelectedLink-"] {
+  box-shadow: 0 0 0 2px var(--accent-hex), 0 0 4px rgba(0, 0, 0, 0.3) !important;
+}
+div[class*="MetadataPosterCardOverlay-selectCircle-"],
+div[class*="SelectButton-selectCircle-"],
+div[class*="SelectButton-isSelected-"] {
+  border-color: var(--accent-rgb) !important;
+  background-color: var(--accent-hex) !important;
+}
+
+a[class*="PosterCardLink-hoveredLink-"] {
+  border-radius: 4px;
+  background-color: rgba(30, 30, 30, 0.6);
+  box-shadow: 0 0 0 1px var(--accent-hex), 0 0 4px rgba(0, 0, 0, 0.1);
+}
+.edit-lock-addon.locked {
+  background-color: var(--accent-hex);
+  border-color: var(--accent-hex);
+}
+.media-poster-container.selected {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3), inset 0 0 0 3px var(--accent-hex) !important;
+}
+span[class*="NavBarActivityButton-isHighlighted-"],
+span[class*="NavBarActivityButton-activityIcon-"] {
+  background-color: var(--accent-hex) !important;
+  color: #000 !important;
+}
+
+/* Dark Side Bar */
+[class*="SourceSidebar-sidebar-"] {
+  background: rgba(var(--Sidebar), 0%) !important;
+}
+
+div[class*="SourceSidebarLink-isSelected-"] {
+  background-color: transparent;
+}
+
+/* Dark Top Bar */
+[class*="NavBar-container-"] {
+  background: rgba(var(--Topbar), 0%);
+}
+
+/* Dark Search Box */
+[class*="QuickSearchInput-container-"] {
+  background: var(--SearchBar);
+  border-radius: 4px;
+}
+
+[class*="QuickSearchInput-searchInput-"] {
+  color: var(--text1) !important;
+}
+
+[class*="QuickSearchResults-container-"] {
+  background: var(--SearchBar) !important;
+  border-radius: 0 0 4px 4px;
+  color: var(--text1) !important;
+}
+
+[class*="BottomBar-bottomBar-"] {
+  background-color: rgba(35, 36, 38, 0.4);
+}
+
+[class*="MiniPlayerPoster-expandButton-"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lvwu4a0 {
+  color: var(--accent-hex);
+  display: inline-flex;
+}
+
+/* Poster Card */
+[class*="PrePlayPosterCardPlayedStatus-status-"] {
+  background-color: transparent;
+  border-radius: 0 0 4px 4px;
+  display: flex;
+  justify-content: center;
+  margin-top: -4px;
+  padding: 14px 10px 10px;
+}
+
+[data-testid*="preplay-play"] {
+  background-color: var(--accent-hex);
+  transition: background-color 0.3s;
+}
+
+[data-testid*="preplay-play"]:hover {
+  background-color: var(--accent-hex-secondary);
+  transition: background-color 0.3s;
+}
+
+/* Logo SVG */
+path[d="M83.2283 38.1208H73.2884L82.9363 23.8186L73.2884 9.50464H83.2283L92.8751 23.8186L83.2283 38.1208Z"][fill="#EBAF00"] {
+  fill: var(--accent-hex);
+}
+
+[class*="PosterCardLink-"] {
+  transition: box-shadow 0.3s ease-in-out !important;
+}
+
+[class*="PosterCardLink-link-"] {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+[class*="PosterCardLink-hoveredLink-"] {
+  box-shadow: rgba(var(--accent-rgb), 0.601) 0px 19px 38px,
+    rgba(var(--accent-rgb), 0.209) 0px 15px 12px !important;
+}
+/* button[class*="PosterCardLink-hoveredLink"] {
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
+    rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
+    rgb(255, 85, 85) 0px 0px 0px 15px;
+} */
