@@ -1,6 +1,6 @@
 # Plex Updated UI
 
-This Chrome extension allows users to change the default orange accent color in Plex to a color of your choice. It also introduces minor UI adjustments that I found nice.
+This Chrome extension allows you to change the default orange accent color in Plex to a color of your choice. It also introduces minor UI adjustments that I found nice.
 
 ## Installation
 
